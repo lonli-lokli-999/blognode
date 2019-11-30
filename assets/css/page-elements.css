@@ -1,0 +1,67 @@
+:root {
+--tab-bar-width: 30%;
+}
+
+.page-header-wrap {
+background: url(../img/main-bg.jpg);
+background-size: cover; 
+}
+
+	.page-header {
+	min-height: 100vh;
+	display: flex;
+	}
+
+		.header-titles {
+		display: flex;
+		align-items: end;
+		padding: 1rem;
+		background: rgba( 250, 250, 250, .7 );
+		width: var( --tab-bar-width );
+		}
+
+			.page-title {
+			color: #fff;
+			text-shadow: 0 0 .5rem #999;
+			font-size: 3rem;
+			}
+			
+.page-main {
+display: flex;
+min-height: 100vh;
+}
+	
+.tab-bar {
+background: #fff;
+padding: 1rem 0;
+width: var( --tab-bar-width );
+}
+
+	.tab-bar__options li {
+	display: block;
+	}
+
+	.tab-bar__options a {
+	display: block;
+	padding: 1rem .5rem;
+	color: #999;
+	}
+	
+	.tab-bar__options a:hover {
+	color: #000;
+	background: #eee;
+	}
+	
+.page-content {
+background: #eee;
+padding: 1rem .5rem;
+width: calc( 100% - var( --tab-bar-width ) );
+}
+	
+.page-footer-wrap {
+background: #333;	
+}
+
+.page-footer {
+padding: 2rem .5rem;
+}

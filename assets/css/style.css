@@ -1,0 +1,18 @@
+@import 'reset.css';
+
+.wrap {
+margin: 0 auto;
+max-width: 1500px;
+}
+
+.inp-elem {
+background: #999;
+color: #333;
+width: 30rem;
+padding: 1rem;
+margin: .2rem 0;
+}
+
+.inp-elem:hover {
+color: #000;
+}
