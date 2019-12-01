@@ -1,6 +1,6 @@
 var
 	mongoose = require( 'mongoose' ),
-	db_host = `mongodb://localhost/test`;
+	db_host = `mongodb://localhost/blog`;
 
 module.exports = () => {
 	return new Promise( ( resolve, reject ) => {

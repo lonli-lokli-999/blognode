@@ -5,14 +5,34 @@ margin: 0 auto;
 max-width: 1500px;
 }
 
+.post {
+background: #fff;
+margin: 1rem .2rem;
+padding: 2rem .5rem;
+}
+
+.post__title {
+padding: 1rem 0;
+font-size: 1.5rem;
+color: #555;
+}
+
+.post__body {
+font-famiy: Serif;
+color: #999;
+}
+
 .inp-elem {
-background: #999;
-color: #333;
-width: 30rem;
 padding: 1rem;
-margin: .2rem 0;
+margin: .5rem 0;
+width: 100%;
+background: #fff;
+color: #999;
+border: .2rem solid #fff;
+border-radius: .2rem;
+transition: 500ms;
 }
 
 .inp-elem:hover {
-color: #000;
+background: #eee;
 }

@@ -1,7 +1,8 @@
 const pageConfig = 
 {
 	pageTitle: 'hello word',
-	scripts: ['vue.min', 'axios', 'front-page'],
+	descriptor: 'ggd dgdg',
+	scripts: ['vue.min', 'axios', 'front-page', 'post'],
 	styles: ['style', 'page-elements']
 };
 
